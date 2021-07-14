@@ -2015,6 +2015,10 @@ Partner Area CSS
 
 .single-partner {
   text-align: center;
+  
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
 }
 
 .single-partner img {
@@ -2959,7 +2963,7 @@ Services Area CSS
 Support Area CSS
 =================================================*/
 .support-area {
-  background-image: url(../../assets/images/support/support-bg-1.jpg);
+  background-image: url(../../assets/images/support/support-bg-mdx.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3342,6 +3346,7 @@ Clients Area CSS
 .clients-item .title-name h3 {
   font-size: 20px;
   margin-bottom: 0;
+  text-align: right;
 }
 
 .clients-item .title-name span {

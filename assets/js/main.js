@@ -361,7 +361,7 @@ jQuery(function ($) {
 			dots: false,
 			smartSpeed: 500,
 			margin: 30,
-			autoplayHoverPause: true,
+			autoplayHoverPause: false,
 			autoplay: true,
 			navText: [
                 "<i class='ri-arrow-left-line'></i>",
